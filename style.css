@@ -94,7 +94,10 @@ section p{
 }
 
 .game-characters{
-    max-width: 36%;
+    width: 500px;
+    height: 300px;
+    max-width: none;
+    max-height: none;
 }
 
 #contact .container {
