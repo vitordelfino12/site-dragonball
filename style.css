@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+section h4,
+form button{
+    font-family: "Merriweather", serif;
+}
+
+body, input, textarea{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    padding: 16px 0;
+    background-color: rgb(2, 11, 112);
+    color: white;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.store-list img{
+    max-height: 36px;
+}
+
+.store-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.store-list li a{
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px;
+    color: rgb(2, 11, 112);
+}
+
+section p{
+    color: black;
+}
+
+section h2,
+h3,
+h4 {
+    margin-bottom: 16px;
+}
+
+section h4{
+    margin-top: 28px;
+}
+
+section p{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.site-front,
+.game-characters {
+    margin-right: 16px;
+}
+
+.game-characters{
+    max-width: 36%;
+}
+
+#contact .container {
+    display: block;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 120px;
+}
+
+form button{
+    background-color:rgb(2, 11, 112);
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color:rgb(13, 27, 177) ;
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(4, 88, 121);
+}
+
+.social-links img{
+    height: 30px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 15px;
+
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.icons img{
+    height: 400px;
+}
+
+.icons li{
+    display: inline;
+}
+
+.key-game{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color:rgb(2, 11, 112);
+    color: white;
+    padding: 16px 0;
+}
